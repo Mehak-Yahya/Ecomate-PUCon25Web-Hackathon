@@ -1,0 +1,174 @@
+/* Full Page Background Wrapper */
+.challenge-page {
+  position: relative;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  background: url('https://www.digicomply.com/hubfs/AI-Generated%20Media/Images/Carbon%20Footprint%20Reduction.jpeg') no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto;
+}
+
+/* Inner Glass Container */
+.challenge-container {
+  width: 100%;
+  max-width: 850px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  color: #264653;
+  z-index: 1;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #73ca70;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #3d7a49;
+}
+
+/* Create Button Row */
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.2rem;
+}
+
+.create-btn {
+  padding: 0.6rem 1.2rem;
+  background-color: #2a9d8f;
+  color: white;
+  font-weight: bold;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+  background-color: #1f5d7a;
+}
+
+/* Empty Message */
+.empty-message {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-top: 2rem;
+}
+
+/* Challenge List */
+.challenge-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.challenge-card {
+  background: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e0e0e0;
+}
+
+.challenge-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+  color: #2f855a;
+}
+
+.challenge-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Action Buttons */
+.challenge-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.join-btn,
+.joined-btn,
+.contribute-btn {
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.join-btn {
+  background-color: #3182ce;
+  color: white;
+}
+
+.join-btn:hover {
+  background-color: #2b6cb0;
+}
+
+.joined-btn {
+  background-color: #a0aec0;
+  color: white;
+  cursor: default;
+}
+
+.contribute-btn {
+  background-color: #48bb78;
+  color: white;
+}
+
+.contribute-btn:hover {
+  background-color: #38a169;
+}
+
+/* Contributions Box */
+.contributions {
+  background-color: #f0fbf9;
+  border-left: 4px solid #38a169;
+  padding: 1rem;
+  margin-top: 1.2rem;
+  border-radius: 8px;
+}
+
+.contributions h4 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #2a9d8f;
+}
+
+.contributions ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+.contributions li {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+  color: #333;
+}

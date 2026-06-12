@@ -1,0 +1,86 @@
+/* Full Page Background */
+.community-detail-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  background: url('https://www.digicomply.com/hubfs/AI-Generated%20Media/Images/Carbon%20Footprint%20Reduction.jpeg') no-repeat center/cover;
+}
+
+/* Glassmorphic card */
+.community-detail-card {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  color: #264653;
+  z-index: 1;
+}
+
+/* Scrollable Member List */
+.member-list-scroll {
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.member-list-scroll ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.member-list-scroll li {
+  background: white;
+  margin-bottom: 0.6rem;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  cursor: default;
+}
+
+.member-list-scroll li:hover {
+  background-color: #e0f2f1;
+}
+
+/* Ensure buttons align properly */
+.primary-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #588157;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #3d7a49;
+}
+
+.back-btn{
+
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #73ca70;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}

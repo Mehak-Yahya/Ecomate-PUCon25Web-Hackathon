@@ -1,0 +1,84 @@
+/* Page Wrapper */
+.history-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  background-image: url('https://www.digicomply.com/hubfs/AI-Generated%20Media/Images/Carbon%20Footprint%20Reduction.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Glassmorphic Card */
+.history-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  color: #264653;
+}
+
+/* Heading */
+.history-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #588157;
+  font-size: 1.6rem;
+}
+
+/* Error message */
+.error {
+  color: #e63946;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #dcefdc;
+  color: #264653;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6ffe6;
+}
+
+.history-container p {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+out-tsc/
+
+# Angular cache
+.angular/
+
+# Environment variables
+.env
+.env.*
+
+# Firebase / service account secrets
+serviceAccountKey.json
+ecomate/backend/serviceAccountKey.json 
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
