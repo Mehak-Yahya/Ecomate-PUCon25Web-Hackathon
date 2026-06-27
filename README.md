@@ -91,3 +91,8 @@ ng serve
 ![chllnege contribbuted](https://github.com/user-attachments/assets/0c9ee5bf-4d0f-4a8d-b12a-f94230c891c0)
 ![community leaderboard](https://github.com/user-attachments/assets/a8da0f97-883b-49ab-9226-040d77b58639)
 ![eco feed](https://github.com/user-attachments/assets/d51ee0c4-51f1-4c51-8fa8-690dfce38f56)
+
+---
+## Contact
+📩 Email: kandhirmehak@gmail.com
+💼 Open for freelance & collaboration opportunities
