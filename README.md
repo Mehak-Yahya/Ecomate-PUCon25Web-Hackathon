@@ -62,7 +62,7 @@ EcoMate should provide a comprehensive suite of functionalities enabling users t
   ## 📦 Setup Instructions
 
 # Clone the repo
-git clone https://github.com/MehakYahya/Ecomate-PuCon25Web-Hackathon.git
+git clone https://github.com/Mehak-Yahya/Ecomate-PuCon25Web-Hackathon.git
 # Backend Setup
 cd Ecomate-PuCon25Web-Hackathon/ecomate/backend
 
